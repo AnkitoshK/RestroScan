@@ -11,9 +11,6 @@ Intuitive hamburger menu for easy navigation to key sections such as menu, reser
 Menu Page:
 Cart-style layout for showcasing various food and beverage offerings.
 
-Reservations Page:
-Structured reservation form for efficient booking of tables.
-
 Contact Us Page:
 Structured contact form alongside a descriptive section for efficient communication.
 
