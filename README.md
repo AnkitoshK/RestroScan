@@ -1,5 +1,5 @@
 
-RestroScan is an innovative web platform designed to provide a comprehensive and user-friendly interface for restaurant-related services. This application aims to streamline the user experience by integrating essential functionalities such as menu browsing, table reservations, customer reviews, and detailed restaurant descriptions.
+RestroScan is an innovative web platform designed to provide a comprehensive and user-friendly interface for restaurant-related services. This application aims to streamline the user experience by integrating essential functionalities such as menu browsing, customer reviews, and detailed restaurant descriptions.
 
 **Features**
 Dynamic Home Page:
