@@ -1,0 +1,191 @@
+.about-us-m{
+    background-image: url("/public/Images/AboutUs/Aboutus-bg.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 120vh; 
+    width: 100%;
+    overflow: hidden;
+}
+
+.about-us-m .h{
+    margin-top: 60px;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.about-us-p h2{
+     margin: 35px;
+     font-size: 30px;
+     margin-left: 100px;
+}
+
+.about-us-p p{
+    margin: 30px;
+    margin-left: 100px;
+    text-align: justify;
+    width: 500px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.about-us{
+    display: flex;
+}
+
+/* .about-us-m-2{
+    
+} */
+/* .content {
+  width: 50%;
+}
+/* .roots {
+  width: 50%;
+  padding-left: 20px;
+} */ 
+.about-us-m-2 h2{
+    font-size: 30px;
+    margin: 20px;
+    margin-left: 90px;
+}
+
+.about-us-m-2 p{
+    text-align: justify;
+    margin: 20px;
+    margin-left: 90px;
+    font-style: italic;
+}
+
+.about-us-m-roots{
+    width: 45%;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.about-us-m-roots h3{
+    font-weight: 500;
+    font-size: 22px;
+    margin: 20px;
+}
+
+.about-us-m-roots p{
+text-align: justify;
+margin-left: 20px;
+font-style: italic;
+width:100%;
+}
+
+.about-us-1{
+    margin: 20px;
+    display: flex;
+}
+
+.products{
+    width: 50%;
+    margin-left: 60px;
+}
+
+.products h2{
+  font-size: 20px;
+  margin: 10px;
+}
+
+.products p{
+    text-align: justify;
+    width: 80%;
+    margin: 10px;
+    font-style: italic;
+
+}
+
+.industries{
+    width: 40%;
+    margin-left: 40px;
+}
+
+.industries h3{
+    font-weight: 300;
+    margin: 10px;
+    margin-top: 40px;
+}
+.industries ul{
+    margin-left: 40px;
+}
+
+.industries ul li{
+    font-style: italic;
+}
+
+.success-story{
+    margin: 40px;
+    text-align: center;
+}
+
+.success-story h2{
+    text-align: center;
+    font-size: 35px;
+    margin: 30px;
+}
+
+.success-story p{
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin-left: 20%;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .about-us {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .about-us-p{
+      margin-left: 0px;
+    }
+    .about-us-p h2 p{
+        width: 30px;
+    }
+    .about-us-m-2, .about-us-m-roots {
+      width: 500px;
+    }
+  
+    .about-us-1 {
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 0px;
+    }
+  
+    .products, .industries {
+      width: 90%;
+    }
+  
+    .success-story {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .about-us-m .h {
+      font-size: 40px;
+    }
+  
+    .about-us-p h2 {
+      font-size: 30px;
+    }
+  
+    .about-us-m-2 h2, .about-us-m-roots h3 {
+      font-size: 28px;
+    }
+  
+    .products h2, .industries h3 {
+      font-size: 28px;
+    }
+  
+    .success-story h2 {
+      font-size: 35px;
+      text-align: center;
+    }
+  }

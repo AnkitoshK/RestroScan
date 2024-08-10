@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar{
+    border: 1px solid black;
+    align-items: center;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 25px;
+    z-index: 1000;
+    
+}
+.logo-name a{
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+.logo-name i {
+    color: blue;
+    font-size: 16px;
+}
+.logo-name .icon{
+    height:20px;
+    width: 20px;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.nav-links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;    
+}
+.nav-links li a{
+    
+    text-decoration: none;
+    padding: 2px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 10px;
+    color: black;
+    list-style-type: none;
+    transition: 0.3s ease;
+}
+.list .nav-links ul li a:hover,
+.list .nav-links ul li a.active {
+    color: blue;
+    content: "";
+}
+.list .nav-links ul li a:hover::after,
+.list .nav-links ul li a.active::after{
+    content: "";
+    background: #850d0d;
+    position: absolute;
+}
+
+.btn {
+    padding: 8px 40px;
+    background-color: #f39c12;
+    color: black;
+    border: none;
+    /* border-radius: 3px 17px 2px 17px; */
+    border-radius: 2.5rem 0;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 5px;
+    width: 190px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.btn:hover {
+    background-color: #ff0202;
+    color: yellow;
+}
+
+@media (max-width: 780px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    .list {
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      background-color: whitesmoke;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      padding: 20px;
+    }
+  
+    .list.open {
+      display: flex;
+    }
+  
+    .nav-links ul {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .nav-links ul li {
+      width: 100%;
+      text-align: left;
+      margin: 10px 0;
+    }
+  
+    .btn-link {
+      width: 90%;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .btn-link .btn {
+      width: 90%;
+    }
+  }

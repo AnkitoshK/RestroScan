@@ -1,0 +1,140 @@
+.gallery{
+    margin-top: 40px;
+    background-image: url(/public/Images/Gallery/Gallery-Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    height: 60vh; 
+    width: 100%;
+    margin-bottom:5px;
+    /* text-align: center; */
+    color: white
+}
+
+.gallery h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.p-gallery{
+    line-height: 1.2;
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: justify;
+}
+.gallery-items{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  /* justify-content: space-around; */
+  gap: 30px;
+  margin-left: 35px;
+  
+}
+.gallery-item img{
+   height: 30vh;
+   margin-left: 80px;
+   box-shadow: 10px 10px 30px 10px rgba(0,0,0, 0.4);
+   transition: 0.3s;
+   border-radius: 20px;
+}
+.gallery-item img:hover{
+    box-shadow: 10px 10px 54px rgba(0,0,0, 0.1);
+}
+.gallery-item h3{
+    margin-left: 109px;
+    margin-top: 5px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.gallery-item p{
+   width: 80%;
+   text-align: justify;
+   margin-top: 5px;
+   margin-left: 60px;
+   margin-bottom: 10px;
+}
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    .gallery {
+        height: 40vh;
+    }
+
+    .gallery h2 {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .p-gallery {
+        font-size: 14px;
+        max-width: 90%;
+    }
+
+    .gallery-items {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .gallery-item img {
+        height: 25vh;
+        margin-left: 0;
+        
+    }
+
+    .gallery-item h3 {
+        margin-left: 0;
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+
+    .gallery-item p {
+        width: 90%;
+        margin-left: 45px;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    .gallery {
+        height: 30vh;
+    }
+
+    .gallery h2 {
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .p-gallery {
+        font-size: 12px;
+        max-width: 95%;
+    }
+
+    .gallery-items {
+        gap: 10px;
+    }
+
+    .gallery-item img {
+        height: 20vh;
+        margin-left: 0;
+    }
+
+    .gallery-item h3 {
+        margin-left: 0;
+        font-size: 1rem;
+    }
+
+    .gallery-item p {
+        width: 95%;
+        margin-left: 0;
+    }
+}

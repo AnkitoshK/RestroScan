@@ -1,0 +1,37 @@
+.Pricing-page{
+   margin-top: 40px;
+   text-align: center;
+   background-image: url(/public/Images/Pricing/Pricing-Background.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 95vh; 
+   width: 100%;
+   overflow: hidden;
+   margin-bottom: 5px;
+   
+}
+.Pricing-page h2{
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+}
+.Pricing-pic{
+max-width: 100%;
+display: block;
+margin: 0 auto;
+height: 400px;
+width: fit-content;
+  margin: 0 auto;
+}
+
+.Pricing-pic img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow:  1px 1px 15px 1px;
+    
+    } 
